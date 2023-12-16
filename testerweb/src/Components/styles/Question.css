@@ -1,0 +1,16 @@
+.answers p{
+    font-size: 22px;
+}
+
+.answers p span{
+    font-weight: 700;
+}
+
+.questionCounter{
+    font-size: 18px;
+    color: gray;
+}
+
+.buttonsGroup button{
+    margin: 0 10px;
+}

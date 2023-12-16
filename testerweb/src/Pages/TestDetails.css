@@ -1,0 +1,45 @@
+.timeBlock{
+    color: black;
+}
+
+.timeBlock span{
+    color: orangered;
+
+}
+
+.authorBlock{
+    color: black;
+}
+
+.authorBlock span{
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+.allowBlock{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 5px;
+}
+
+.allowBlock h3{
+    color: dimgray;
+    font-size: 22px;
+}
+
+.allowBlock h3 span{
+    color: black;
+}
+
+hr{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttonBlock{
+    margin: 15px auto;
+}

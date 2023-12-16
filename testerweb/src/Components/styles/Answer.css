@@ -1,0 +1,63 @@
+.answer-box{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.select-answers-variants {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select-answers-variants th, .select-answers-variants td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.select-answers-variants th {
+    background-color: #f2f2f2;
+}
+
+.select-answers-variants .r {
+    font-weight: 700;
+}
+
+.select-answers-variants .marker {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    box-sizing: border-box;
+    border: none;
+    background-repeat: no-repeat;
+    margin: 0 2px 2px 0;
+    background-image: url('marker-x.png');
+    background-position: 0 -40px;
+    cursor: pointer;
+}
+
+.select-answers-variants .marker.ok {
+    background-position: -120px 0;
+}
+
+.select-answers-variants .marker.otvet {
+    background-position: -80px 0;
+}
+
+.select-answers-variants .marker.ok.otvet {
+    background-position: -120px 0;
+    background-color: #ffff22;
+}
+
+.select-answers-variants .marker:hover {
+    background-position: 0 0;
+}
+
+.select-answers-variants input[type="radio"]:checked + .marker {
+    background-position: -40px 0;
+}
+
+.q-radio{
+    position:absolute;
+    margin-left:-2000px;
+}

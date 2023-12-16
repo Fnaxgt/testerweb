@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+}
+
+a {
+    margin: 0 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #4A6C6F;
+    color: white;
+}
+
+.active {
+    color: #98B9F2;
+}
+
+header nav {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 20px;
+    transition: 0.3s ease-in-out all;
+    border-radius: 12px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #98B9F2;
+    background-color: #476164;
+}
